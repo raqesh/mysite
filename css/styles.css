@@ -1,0 +1,114 @@
+h1 {
+    font-size: 5.625rem;
+    font-family: sans-serif;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+  }
+
+h2 {
+  font-size: 2.25rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.pmp {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.safe {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pmp-skill-desc {
+  clear: left;
+}
+
+.safe-skill-desc {
+  clear: right;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.text-title {
+  /*display: block;*/
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  /*position: relative;
+  padding-top: 100px;
+ height: 200px;
+  width: 200px;
+  border: solid 10px;
+  border-color: black;
+  padding: 20px;
+  position: relative;
+  left: 0px;
+  display: inline-block; */
+
+}
+.middle-container {
+/*  background-color: red;
+  height: 200px;
+  width: 200px;
+border: solid 20px;
+  border-color: black;
+  margin-left: 260px;
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  position: absolute;
+  left: 200px;
+  bottom: 200x; */
+}
+
+.bottom-container {
+/*  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  border-color: black;
+  display: inline-block;
+  margin-left: 500px;
+  position: relative;
+  left: 0px;
+  position: absolute;
+  left: 400px;
+  top: 400px; */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
