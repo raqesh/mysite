@@ -1,57 +1,319 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My CSS Site</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  </head>
-  <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <div class="text-title">
-      <h1>I am Rakesh.</h1>
-      <p><a href="html/blogs.html">Blogs</a></p>
-    </div>
-    <h2><p>I am a <span class="pro">project management consultant</span></p></h2>
+<html>
 
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/OldPMP.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/raks.png" alt="Rakesh-img">
-      <h2>Hello.</h2>
-      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="pmp" src="images/pmp.png" alt="PMP-img">
-        <h3>Lorem & Ipsum</h3>
-        <p class="pmp-skill-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+<head>
+  <meta charset="utf-8">
+  <title>Maaeend</title>
+<!-- W3Schools Stylesheets-->
+<!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><img src="images/Logo-Text-Ori.png" width="100" height="100" alt="Logo-mockup" align="left">Maaeend</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Services</a>
+            </li>
+			      <!-- <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact Us</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row" col-lg-6>
+        <!-- <p><h1>Maaeend's objective is to empower its partners.</h1><a href="blogs/blog.html">Blogs</a><a href="links/CognitiveFlexibility.html">NewWebsite</a></p> -->
+        <p><h1>Maaeend's objective is to empower its partners.</h1></p>
+        <!-- <p><img src="images/Logo.png" alt="Logo-mockup" height="75" width="75" align="left"></p> -->
+        </div>
+
+  </section>
+
+  <!-- Features -->
+<!--
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="safe" src="images/pmpi.png" alt="SAFE-img">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p class="safe-skill-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+
+
+    </div>
+  </section> -->
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">PMP training sessions by FirstName are very engaging & interactive. He is technically sound and very soft spoken person with a pleasant personality and positivity. He shares a strong relationship with his students due to his great interpersonal skills. His way of clarifying my questions in all knowledge areas of project management really helped. His focused & encouraging attitude helped me to give my exam with conceptual clarity & confidence. I’d definitely recommend him for PMP training and get certified.</h2>
+          <!--<img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">-->
+          <!-- <em>Nitin C, Finance Transformation</em> -->
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Thank you FirstName Sir for providing training and guidance for PMP exam. That was most valuable knowledge during my PMP preparation. It was clear and very well organized and interactive that I could learn and gain knowledge from all aspects of project management from other domains as well. And I was able to relate my understanding developed with my current organization structure, roles and responsibilities. I had passed my exam last week. I will see if i can get more opportunities to learn from you.</h2>
+          <!--<img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">-->
+          <!-- <em>Rahul Jain- PMP, SSGB</em> -->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/PMP.png" alt="PMP-logo">
+    <!--<img class="press-logo" src="images/tnw.png" alt="tnw-logo">-->
+    <img class="press-logo" src="images/ATP-I-PMP.png" alt="PMI-ATP-I-PMP-logo">
+    <!--<img class="press-logo" src="images/mashable.png" alt="mashable-logo">-->
+<img class="press-logo" src="images/pl-new.png" alt="Power Skills">
+<img class="press-logo" src="images/mt-new.png" alt="Master Trainer">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <!--<section class="white-section" id="pricing">-->
+  <section class="white-section" id="pricing">
+    <!-- <img class="press-logo" src="images/Logo.png" alt="logo" align="right"> -->
+    <h2 class="section-heading">Maaeend provides services in two domains:</h2>
+    <!-- <p>Simple and affordable trainings and Consultancy for you and your organization.</p> -->
+    <div class="row">
+      <div class="feature-box col-lg">
+          <button class="collapsible">Consultancy</button>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, .</p>
+            </div>
+
+            <button class="collapsible">Training</button>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+              <button class="collapsible">Open Section 2</button>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+              </div>
+
+              <button class="collapsible">Open Section 3</button>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+              </div>
+            </div>
+        </div>
+      </div>
+</section>
+  <!-- <div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Nested Collapsible Blocks</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible <h1>Click me - I'm collapsible!</h1>
+    <button class="collapsible">Open Section 2</button>
+
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+    </div>
+    <button class="collapsible">Open Section 3</button>
+
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+    </div>
+      <p>I'm the expanded content.</p>
+      <div data-role="collapsible">
+        <h1>Click me - I'm a nested collapsible block!</h1>
+        <p>I'm the expanded content in the nested collapsible block.</p>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:raqesh@outlook.com">Contact Me</a>
+  </div>
+</div> -->
+
+ <!-- About Us -->
+  <section class="white-section" id="footer">
+
+    <div class="container-fluid">
+	<div class="row">
+        <div class="feature-box col-lg">
+
+          <h3 class="feature-title" align="left">FirstName LastName, Founder at Maaeend</h3>
+
+          <p><img src="images/raks.png" alt="raksprofile" align="right">FirstName is a passionate leadership, power skills and lean-agile project/program management trainer and consultant.<br>
+          He has over 20 years of experience in developing, leading, driving and managing complex software projects in various sectors such as Stock Market, Online Games (Websites and Mobiles), US Healthcare, Wireless, Floral and Learning & Development.<br>
+          He is a PMI Certified PMP and PMI-ATP-Instructor-PMP. He holds internationally recognized Lean Six Sigma Black Belt & Lean Six Sigma Green Belt Certificates and was SAFe Agilist.<br>
+          He is a certified Master Trainer (Masters Diploma in Training and Development) from Indian Academy of Training and Development (IATD), Chennai, India.<br>
+          He has conducted 13 workshops on PMP, 2 on Leadership and 1 on Business Communication.<br>
+          FirstName believes his purpose is to empower his stakeholders.</p>
+
+        </div>
+
     </div>
-  </div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.rakeshtestingsite.com/">Website</a>
-    <p>© 2020 Rakesh Founder | Learner at rakeshtestingsitelearnings</p>
-  </div>
-  </body>
+
+
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+    </div>
+  </section>
+  <!-- About Us -->
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+      <!--<h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>-->
+           <!-- <h3 class="big-heading">+91 992 015 0666</h3>
+           <h3 class="big-heading">rakesh@maaeend.com</h3> -->
+
+      <!--<button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>-->
+    </div>
+
+  </section>
+
+
+ <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <!-- <i class="social-icon fab fa-linkedin-in"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i> -->
+      <!-- Facebook -->
+<i class="social-icon fab fa-facebook-f"></i>
+
+<!-- Twitter -->
+<i class="social-icon fab fa-twitter"></i>
+
+<!-- Google -->
+<i class="social-icon fab fa-google"></i>
+
+<!-- Instagram -->
+<i class="social-icon fab fa-instagram"></i>
+
+<!-- Linkedin -->
+<i class="social-icon fab fa-linkedin-in"></i>
+
+<!-- Pinterest -->
+<i class="social-icon fab fa-pinterest"></i>
+
+<!-- Vkontakte -->
+<i class="social-icon fab fa-vk"></i>
+
+<!-- Stack overflow -->
+<i class="social-icon fab fa-stack-overflow"></i>
+
+<!-- Youtube -->
+<i class="social-icon fab fa-youtube"></i>
+
+<!-- Slack -->
+<i class="social-icon fab fa-slack-hash"></i>
+
+<!-- Github -->
+<i class="social-icon fab fa-github"></i>
+
+<!-- Dribbble -->
+<i class="social-icon fab fa-dribbble"></i>
+
+<!-- Reddit -->
+<i class="social-icon fab fa-reddit-alien"></i>
+
+<!-- Whatsapp -->
+<i class="social-icon fab fa-whatsapp"></i>
+<p align="center">© Copyright 2021 Maaeend</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
 </html>
