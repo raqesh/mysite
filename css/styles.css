@@ -45,8 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
-  text-align: left;
+  /*color: #8f8f8f;*/
+  color: #ffffff;
+  /*text-align: left;*/
 }
 
 /* Headings */
@@ -60,6 +61,7 @@ p {
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
+
 }
 
 /* Containers */
@@ -93,7 +95,8 @@ p {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
+  /*font-family: "Ubuntu";*/
+  font-family: "Roboto";
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -105,7 +108,7 @@ p {
 
 .nav-link {
   /*font-size: 1.2rem;*/
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   font-family: "Montserrat-Light";
 }
 
@@ -118,9 +121,10 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
+/*  background-color: #ff4c68; */
+  background-color:#FFEFD5
   color: #fff;
-  text-align: left;
+  text-align: center;
 }
 
 #title .container-fluid {
@@ -213,6 +217,10 @@ p {
 
 
 /* Footer Section */
+#footer {
+  background-color: #f7beb7;
+
+}
 
 
 .social-icon {
