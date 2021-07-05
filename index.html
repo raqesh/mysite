@@ -1,122 +1,335 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>maaeend</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="/css/tooplate-style.css" />
+      <link rel="icon" href="/img/favicon.ico">
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Maaeend</title>
-<!-- W3Schools Stylesheets-->
-<!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+  <body>
+    <!-- page header -->
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-  <link rel="icon" href="favicon.ico">
-
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/styles.css">
-
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-  <section class="white-section" id="title">
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- <a class="navbar-brand" href=""><img src="/images/Logo.png" width="300" height="150" alt="Logo-mockup" align="left"></a> -->
-        <img class="navbar-brand" src="/images/Logo.png" width="300" height="150" alt="Logo" align="left">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Services</a>
-            </li>
-			      <!-- <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Contact Us</a>
-            </li>
-          </ul>
-
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <!-- <i class="fas fa-4x fa-chart-bar mr-4"></i> -->
+          <i><img src="/img/Logo.png" alt="Image" width="350' height="150" /></i>
+          <!-- <p class="d-inline-block text-lowercase">Empowering Value Creation</p> -->
+          <h3>Empowering Value Creation</h3>
         </div>
-      </nav>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#tmMainNav"
+                aria-controls="tmMainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#activities">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
 
-      <!-- Title -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#company">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
 
-      <!-- <div class="row" col-lg-6> -->
-        <div>
-        <h1>Maaeend's objective is to empower its partners!</h1>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link external" href="https://www.facebook.com/Maaeend-105922171702525">FB Page</a>
+                  </li> -->
+
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
+    </div>
 
-  </section>
-
-  <!-- Features -->
-<!--
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
+    <!-- Video Banner -->
+    <section class="tm-banner-section" id="tmVideoSection">
+      <div class="container tm-banner-text-container">
+        <div class="row">
+          <div class="col-12">
+            <header>
+              <h2 class="tm-banner-title"></h2>
+              <p class="mx-auto tm-banner-subtitle">
+                This leadership model was created during the Train The Train Certification Program.
+              </p>
+            </header>
+          </div>
         </div>
       </div>
 
-
+      <!-- Video -->
+      <video id="hero-vid" width="320" height="240" controls muted>
+        <source src="/videos/talks.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <!-- Services -->
+    <div class="container tm-features-section" id="activities">
+      <div class="row tm-features-row">
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-anchor tm-feature-icon"></i>
+            <h3 class="tm-feature-h">Consultancy</h3>
+          </header>
+          <p>
+            Maaeend provides end-to-end consultancy services in traditional project management, lean-agile project management, and organizational agility.
+          </p>
+          <p>
+            It provides consultancy in goal setting, productivity enhancing, potential exploiting and performance improving.
+          </p>
+        </section>
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-atom tm-feature-icon"></i>
+            <h3 class="tm-feature-h">Training</h3>
+          </header>
+          <p>
+            Maaeend provides training and workshops on PMP Certification Exam Preparation, CAPM Certification Exam Preparation, and Lean Six Sigma.
+          </p>
+          <p>
+            It provides training in everything power skills including Wicked Problem Solving, Mindset Development, and Conversational Intelligence.
+          </p>
+        </section>
+      </div>
     </div>
-  </section> -->
 
+    <!-- Features -->
+    <div class="container" id="features">
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-parallax">
+            <header class="tm-parallax-header">
+              <h2 class="">Features</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-img-container">
+              <img src="/img/PMP.png" alt="Image" class="tm-activity-img" />
+            </div>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">PMI Certified PMP</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-img-container">
+              <img src="/img/ATP-I-PMP.png" alt="Image" class="tm-activity-img" />
+            </div>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">PMI Certified PMP Instructor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-img-container">
+              <img src="/img/master trainer.png" alt="Image" class="tm-activity-img" />
+            </div>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Certified Master Trainer</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-img-container">
+              <img src="/img/primal learing.png" alt="Image" class="tm-activity-img" />
+            </div>
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Primal Learning</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- Testimonials -->
+    <section class="container tm-company-section" id="company">
+      <div class="row">
+        <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+          <div class="tm-company-about">
+            <div class="tm-company-img-container">
+              <img src="/img/img-05.jpg" alt="Image" />
+            </div>
+            <div class="tm-company-about-text">
+              <header>
+                <h2 class="tm-company-about-header">About us</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+              </p>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+              </p>
+              <a href="#" class="btn tm-btn tm-float-right">Read More</a>
+            </div>
+          </div>
+        </div>
+      <!-- Founder -->
+      <section class="container tm-company-section" id="company">
+        <div class="row">
+          <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+            <div class="tm-company-about">
+              <div class="tm-company-img-container">
+                <img src="/img/raks.png" alt="Image" />
+              </div>
+              <div class="tm-company-about-text">
+                <header>
+                  <h2 class="tm-company-about-header">About Founder</h2>
+                </header>
+                <p>
+                  FirstName is a passionate leadership, power skills and lean-agile project/program management trainer and consultant.
+He has over 20 years of experience in developing, leading, driving and managing complex software projects in various sectors such as Stock Market, Online Games (Websites and Mobiles), US Healthcare, Wireless, Floral and Learning & Development.
+                </p>
+                <p class="mb-4">
+                  He is a PMI Certified PMP and PMI-ATP-Instructor-PMP. He holds internationally recognized Lean Six Sigma Black Belt & Lean Six Sigma Green Belt Certificates and was SAFe Agilist.
+He is a certified Master Trainer (Masters Diploma in Training and Development) from Indian Academy of Training and Development (IATD), Chennai, India.
+He has conducted 13 workshops on PMP, 2 on Leadership and 1 on Business Communication.
+                </p>
+                <a href="#" class="btn tm-btn tm-float-right">Read More</a>
+              </div>
+            </div>
+          </div>
 
-  <section class="colored-section" id="testimonials">
+        <div
+          class="col-xl-9 col-lg-4 col-md-12 tm-company-right  ml-lg-auto mr-lg-0"
+        >
+          <div class="tm-company-right-inner">
+            <ul class="nav nav-tabs" id="tmCompanyTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-nav-link-border-right active"
+                  id="vision-tab"
+                  data-toggle="tab"
+                  href="#vision"
+                  role="tab"
+                  aria-controls="vision"
+                  aria-selected="true"
+                  >Vision</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-no-border-right"
+                  id="mission-tab"
+                  data-toggle="tab"
+                  href="#mission"
+                  role="tab"
+                  aria-controls="mission"
+                  aria-selected="false"
+                  >Mission</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="tmTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="vision"
+                role="tabpanel"
+                aria-labelledby="vision-tab"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. .
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. .
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. .
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="mission"
+                role="tabpanel"
+                aria-labelledby="mission-tab"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Testimonials -->
+<section class="colored-section" id="testimonials">
 
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">PMP training sessions by FirstName are very engaging & interactive. He is technically sound and very soft spoken person with a pleasant personality and positivity. He shares a strong relationship with his students due to his great interpersonal skills. His way of clarifying my questions in all knowledge areas of project management really helped. His focused & encouraging attitude helped me to give my exam with conceptual clarity & confidence. I’d definitely recommend him for PMP training and get certified.</h2>
-          <!--<img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">-->
+          <p style="background-color:tomato;" class="testimonial-text">PMP training sessions by FirstName are very engaging & interactive. He is technically sound and very soft spoken person with a pleasant personality and positivity. He shares a strong relationship with his students due to his great interpersonal skills. His way of clarifying my questions in all knowledge areas of project management really helped. His focused & encouraging attitude helped me to give my exam with conceptual clarity & confidence. I’d definitely recommend him for PMP training and get certified.</p>
+
           <!-- <em>Nitin C, Finance Transformation</em> -->
         </div>
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Thank you FirstName Sir for providing training and guidance for PMP exam. That was most valuable knowledge during my PMP preparation. It was clear and very well organized and interactive that I could learn and gain knowledge from all aspects of project management from other domains as well. And I was able to relate my understanding developed with my current organization structure, roles and responsibilities. I had passed my exam last week. I will see if i can get more opportunities to learn from you.</h2>
-          <!--<img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">-->
+          <p style="background-color:tomato;" class="testimonial-text">Thank you FirstName Sir for providing training and guidance for PMP exam. That was most valuable knowledge during my PMP preparation. It was clear and very well organized and interactive that I could learn and gain knowledge from all aspects of project management from other domains as well. And I was able to relate my understanding developed with my current organization structure, roles and responsibilities. I had passed my exam last week. I will see if i can get more opportunities to learn from you.</p>
+
           <!-- <em>Rahul Jain- PMP, SSGB</em> -->
         </div>
       </div>
@@ -130,163 +343,229 @@
 
   </section>
 
-
-  <!-- Press -->
-
-  <section class="colored-section" id="press">
-    <img class="press-logo" src="/images/PMP.png" alt="PMP-logo">
-    <img class="press-logo" src="/images/ATP-I-PMP.png" alt="PMI-ATP-I-PMP-logo">
-    <img class="press-logo" src="/images/pl-new.png" alt="Power Skills">
-    <img class="press-logo" src="/images/mt-new.png" alt="Master Trainer">
-  </section>
-
-
-  <!-- Pricing -->
-
-  <!--<section class="white-section" id="pricing">-->
-  <section class="white-section" id="pricing">
-    <!-- <img class="press-logo" src="images/Logo.png" alt="logo" align="right"> -->
-    <h2 class="section-heading">Maaeend provides services in two domains:</h2>
-    <!-- <p>Simple and affordable trainings and Consultancy for you and your organization.</p> -->
-    <div class="row">
-      <div class="feature-box col-lg">
-          <button class="collapsible">Consultancy</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, .</p>
-            </div>
-
-            <button class="collapsible">Training</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-              <button class="collapsible">Open Section 2</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+  <!-- Testimonials -->
+    <!-- Contact -->
+    <section class="container tm-contact-section" id="contact">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 col-md-12 tm-contact-left">
+          <div class="tm-contact-form-container ml-auto mr-0">
+            <header>
+              <h2 class="tm-contact-header">Contact Us</h2>
+            </header>
+            <form action="index.html" class="tm-contact-form" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
               </div>
-
-              <button class="collapsible">Open Section 3</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
               </div>
-            </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="tm-text-right">
+                <button type="submit" class="btn tm-btn tm-btn-big">
+                  Send It
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-md-12 tm-contact-right">
+          <div class="tm-contact-figure-block">
+            <figure class="d-inline-block">
+              <img src="/img/img-06.jpg" alt="Image" class="img-fluid" />
+              <figcaption class="tm-contact-figcaption">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
-</section>
-
-
- <!-- About Us -->
-  <section class="white-section" id="footer">
-
-    <div class="container-fluid">
-	<div class="row">
-        <div class="feature-box col-lg">
-
-          <h3 class="feature-title" align="left">FirstName LastName, Founder at Maaeend</h3>
-
-          <p align="left"><img src="/images/raks.png" alt="raksprofile" align="right">FirstName is a passionate leadership, power skills and lean-agile project/program management trainer and consultant.<br>
-          He has over 20 years of experience in developing, leading, driving and managing complex software projects in various sectors such as Stock Market, Online Games (Websites and Mobiles), US Healthcare, Wireless, Floral and Learning & Development.<br>
-          He is a PMI Certified PMP and PMI-ATP-Instructor-PMP. He holds internationally recognized Lean Six Sigma Black Belt & Lean Six Sigma Green Belt Certificates and was SAFe Agilist.<br>
-          He is a certified Master Trainer (Masters Diploma in Training and Development) from Indian Academy of Training and Development (IATD), Chennai, India.<br>
-          He has conducted 13 workshops on PMP, 2 on Leadership and 1 on Business Communication.<br>
-          FirstName believes his purpose is to empower his stakeholders.</p>
-
+    </section>
+    <footer class="container tm-footer">
+      <div class="row tm-footer-row">
+        <p class="col-md-10 col-sm-12 mb-0">
+          Copyright &copy; 2021 Maaeend
+        </p>
+        <div class="col-md-2 col-sm-12 scrolltop">
+          <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
+      </div>
+    </footer>
 
-    </div>
-
-
-
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Single Page Nav plugin works with this version of jQuery -->
+    <script src="/js/jquery.singlePageNav.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+      /**
+       * detect IE
+       * returns version of IE or false, if browser is not Internet Explorer
+       */
+      function detectIE() {
+        var ua = window.navigator.userAgent;
 
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0) {
+          // IE 10 or older => return version number
+          return parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)), 10);
+        }
+
+        var trident = ua.indexOf("Trident/");
+        if (trident > 0) {
+          // IE 11 => return version number
+          var rv = ua.indexOf("rv:");
+          return parseInt(ua.substring(rv + 3, ua.indexOf(".", rv)), 10);
+        }
+
+        // var edge = ua.indexOf('Edge/');
+        // if (edge > 0) {
+        //     // Edge (IE 12+) => return version number
+        //     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        // }
+
+        // other browser
+        return false;
+      }
+
+      function setVideoHeight() {
+        const videoRatio = 1920 / 1080;
+        const minVideoWidth = 400 * videoRatio;
+        let secWidth = 0,
+          secHeight = 0;
+
+        secWidth = videoSec.width();
+        secHeight = videoSec.height();
+
+        secHeight = secWidth / 2.13;
+
+        if (secHeight > 600) {
+          secHeight = 600;
+        } else if (secHeight < 400) {
+          secHeight = 400;
+        }
+
+        if (secWidth > minVideoWidth) {
+          $("video").width(secWidth);
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          $("video").width(minVideoWidth);
+        }
+
+        videoSec.height(secHeight);
+      }
+
+      // Parallax function
+      // https://codepen.io/roborich/pen/wpAsm
+      var background_image_parallax = function($object, multiplier) {
+        multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({ "background-attatchment": "fixed" });
+        $(window).scroll(function() {
+          var from_top = $doc.scrollTop(),
+            bg_css = "center " + multiplier * from_top + "px";
+          $object.css({ "background-position": bg_css });
+        });
+      };
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $(".scrolltop:hidden")
+            .stop(true, true)
+            .fadeIn();
+        } else {
+          $(".scrolltop")
+            .stop(true, true)
+            .fadeOut();
+        }
+
+        // Make sticky header
+        if ($(this).scrollTop() > 158) {
+          $(".tm-nav-section").addClass("sticky");
+        } else {
+          $(".tm-nav-section").removeClass("sticky");
         }
       });
-    }
+
+      let videoSec;
+
+      $(function() {
+        if (detectIE()) {
+          alert(
+            "Please use the latest version of Edge, Chrome, or Firefox for best browsing experience."
+          );
+        }
+
+        const mainNav = $("#tmMainNav");
+        mainNav.singlePageNav({
+          filter: ":not(.external)",
+          offset: $(".tm-nav-section").outerHeight(),
+          updateHash: true,
+          beforeStart: function() {
+            mainNav.removeClass("show");
+          }
+        });
+
+        videoSec = $("#tmVideoSection");
+
+        // Adjust height of video when window is resized
+        $(window).resize(function() {
+          setVideoHeight();
+        });
+
+        setVideoHeight();
+
+        $(window).on("load scroll resize", function() {
+          var scrolled = $(this).scrollTop();
+          var vidHeight = $("#hero-vid").height();
+          var offset = vidHeight * 0.6;
+          var scrollSpeed = 0.25;
+          var windowWidth = window.innerWidth;
+
+          if (windowWidth < 768) {
+            scrollSpeed = 0.1;
+            offset = vidHeight * 0.5;
+          }
+
+          $("#hero-vid").css(
+            "transform",
+            "translate3d(-50%, " + -(offset + scrolled * scrollSpeed) + "px, 0)"
+          ); // parallax (25% scroll rate)
+        });
+
+        // Parallax image background
+        background_image_parallax($(".tm-parallax"), 0.4);
+
+        // Back to top
+        $(".scroll").click(function() {
+          $("html,body").animate(
+            { scrollTop: $("#home").offset().top },
+            "1000"
+          );
+          return false;
+        });
+      });
     </script>
-
-    </div>
-  </section>
-  <!-- About Us -->
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="cta">
-
-    <div class="container-fluid">
-      <h3 class="big-heading">Connect with us, now!</h3>
-           <!-- <h3 class="big-heading">+91 992 015 0666</h3>
-           <h3 class="big-heading">rakesh@maaeend.com</h3> -->
-
-      <!--<button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
-      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>-->
-    </div>
-
-  </section>
-
-
- <!-- Footer -->
-
-    <footer class="white-section" id="footer">
-    <div class="container-fluid">
-
-  <!-- Facebook -->
-  <i class="social-icon fab fa-facebook-f"></i>
-
-  <!-- Twitter -->
-  <i class="social-icon fab fa-twitter"></i>
-
-  <!-- Google -->
-  <i class="social-icon fab fa-google"></i>
-
-  <!-- Instagram -->
-  <i class="social-icon fab fa-instagram"></i>
-
-  <!-- Linkedin -->
-  <i class="social-icon fab fa-linkedin-in"></i>
-
-  <!-- Pinterest -->
-  <i class="social-icon fab fa-pinterest"></i>
-
-  <!-- Youtube -->
-  <i class="social-icon fab fa-youtube"></i>
-
-  <!-- Whatsapp -->
-  <i class="social-icon fab fa-whatsapp"></i>
-
-  <!-- Vkontakte -->
-  <!-- <i class="social-icon fab fa-vk"></i> -->
-
-  <!-- Stack overflow -->
-  <!-- <i class="social-icon fab fa-stack-overflow"></i> -->
-
-  <!-- Slack -->
-  <!-- <i class="social-icon fab fa-slack-hash"></i> -->
-
-  <!-- Github -->
-  <!-- <i class="social-icon fab fa-github"></i> -->
-
-  <!-- Dribbble -->
-  <!-- <i class="social-icon fab fa-dribbble"></i> -->
-
-  <!-- Reddit -->
-  <!-- <i class="social-icon fab fa-reddit-alien"></i> -->
-
-<div>
-  <p>© Copyright 2021 Maaeend</p>
-</div>
-
-    </div>
-
-  </footer>
-
-
-</body>
-
+  </body>
 </html>
